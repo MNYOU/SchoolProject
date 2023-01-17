@@ -4,6 +4,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.IdentityModel.Tokens;
 using SchoolServer.Data;
@@ -14,9 +15,9 @@ using SchoolServer.Models;
 namespace SchoolServer.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
 public class TokenController : Controller
 {
+    // в теории пользователи могут создать несколько аккаунтов под одним логином
     private readonly IConfiguration config;
     private readonly DataContext context;
     private readonly DbRepository repository;
@@ -28,16 +29,28 @@ public class TokenController : Controller
         this.context = context;
     }
 
+    [Authorize(Roles = "Admin")]
+    [HttpPost("register/")]
+    public async Task<IActionResult> Register([FromBody] LoginModel loginModel)
+    {
+        var userDal = new UserDal() {Name = "defaultName", Login = loginModel.Login, Password = loginModel.Password};
+        var hasher = new PasswordHasher<UserDal>();
+        var hashed = hasher.HashPassword(userDal, loginModel.Password);
+        userDal = new UserDal() {Name = "defaultName", Login = loginModel.Login, Password = hashed};
+        context.Users.Add(userDal);
+        await context.SaveChangesAsync();
+        return Ok();
+    }
+
     [AllowAnonymous]
-    [HttpPost]
+    [HttpPost("login/")]
     public IActionResult CreateToken([FromBody] LoginModel loginModel)
     {
         var user = Authenticate(loginModel);
         if (user is null)
             return Unauthorized();
         var tokenString = BuildToken(user);
-
-        return Ok(new { token = tokenString });
+        return Json(new { token = tokenString});
     }
 
     private string BuildToken(UserModel user)
@@ -51,9 +64,7 @@ public class TokenController : Controller
             new(JwtRegisteredClaimNames.Sub, user.Id.ToString()),
             new(JwtRegisteredClaimNames.Acr, user.Name)
         };
-        foreach (var role in user.Roles)
-            claims.Add(new Claim("role", role.ToString()));
-
+        claims.AddRange(user.Roles.Select(role => new Claim("role", role.ToString())));
         var token = new JwtSecurityToken(config["Jwt:Issuer"],
             config["Jwt:Issuer"],
             claims,
@@ -63,19 +74,15 @@ public class TokenController : Controller
         return new JwtSecurityTokenHandler().WriteToken(token);
     }
 
-    private UserModel Authenticate(LoginModel loginModel)
+    private UserModel? Authenticate(LoginModel loginModel)
     {
-        // var userDal = repository.GetUser(loginModel);
-        var userDal = new UserDal { Id = 2, Login = loginModel.Login, Password = loginModel.Password, Name = "Random Name" };
-        userDal = context.Users.First(u => u.Name == "masha");
-        if (userDal is null) return null;
-
-        var user = new UserModel(userDal);
-        var user2 = new UserModel(userDal);
-        var res = user.PasswordHasher.VerifyHashedPassword(user,user.Password, "gfdgd");
-        
-        // var user = new UserModel { Name = userDal.Id.ToString(), Email = userDal.Email };
-
-        return user;
+        var user = context.Users.FirstOrDefault(u => u.Login == loginModel.Login);
+        if (user is null)
+        {
+            return null;
+        }
+        var hasher = new PasswordHasher<UserDal>();
+        var verifyResult = hasher.VerifyHashedPassword(user, user.Password, loginModel.Password);
+        return verifyResult is PasswordVerificationResult.Success or PasswordVerificationResult.SuccessRehashNeeded ? new UserModel(user) : null;
     }
 }

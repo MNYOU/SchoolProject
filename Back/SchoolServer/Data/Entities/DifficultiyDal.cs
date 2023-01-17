@@ -13,5 +13,8 @@ public record DifficultyDal : IEntityDal
     [Column("name")]
     public string Name { get; init; }
 
+    [Column("score")]
+    public int Score { get; init; } = 1;
+    
     public List<TaskDal> Tasks { get; init; } = new();
 }

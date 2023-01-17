@@ -5,11 +5,7 @@
     <projectFile profileName="SchoolServer">SchoolServer/SchoolServer.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4e6ef6de-0106-4707-8d08-af0989a285a9" name="Changes" comment="релиз промежуточной версии">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.SchoolServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SchoolServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolServer/Controllers/TaskController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolServer/Controllers/TaskController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SchoolServer/Controllers/TokenController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolServer/Controllers/TokenController.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4e6ef6de-0106-4707-8d08-af0989a285a9" name="Changes" comment="Релиз" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,19 +15,36 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/ee938e38fb5943b68a1c6f1835476ebc1bffc0/72/f73aec44/SingleQueryingEnumerable`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1e8feaadf5c3fa14d36ea2a638c432a2e1a47b7837d8b83d88303c5d9c15cf/AsyncValueTaskMethodBuilderT.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/1fcf3715ba506b315733e9a36347d14b7d58544302ef1332998c7ad12e6361b/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/264cdbfbdb7c6a9ddc794d948824e97d8f7c0ce1a275b6ed78cde41f286ff8/HostEnvironmentEnvExtensions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/3b526121ad76ddf1f0a6cdbb4d412db36f3927d17f728af567a7e54b2f416a/EntityGraphAttacher.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/485da50d43321b81edc28153271bdedb84943a243743e2deaa67a981587968/IConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/575c31ecc35a636b6f962cb71d53992552941a18982aae1c8e6c16305cc3761b/ExceptionDispatchInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6341bbee881f7e28892947fa8187f3cc85774855beb31def7a81ad643898/RelationalCommand.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/6441be2d897c4b23f370c135bc5cbd07eceb3cdd1f83fa5e3ebb7f4536f9/QueryableMethodTranslatingExpressionVisitor.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7b3b6985aad11c5d633d75b545f5f5f4fc7e50918ad1cb9f6b615682f5bfb76d/SingleQueryingEnumerable.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d6a1cf03e9fb15769ae3a669ffc3e13688ff5b56d724f05557dfeb4b6f31/Claim.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7d9a41d47547e1fe7fe548b21ab4de12cc2671170a023bc8c629017837eb5f4/ActionMethodExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/7fae937e13ed52cf7b7079061a6b947b946c41c4a86a47a162b519b3763447/WebApplication.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/a1a59674744830c52bb8ec2c75c1a5b1b21ec7b871acd25d24a346472da73b/DbContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c1da7b6c7c71a954fe3eb2531c6476711b3e6d93a8d76795386d326bb9dbc/ExecutionContext.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/c95dcc58313213285a3bb76c2a3cedab84d293d1b4f5693c7b33d0f2648e5/Convert.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/ca98c280f35e40678feeffb850782bb286a80/_1c664/MediaTypeNames.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/d9d9faea5e6ed6438a777ef8c6eed41261f81d8e86488ed923ad92564f54e/ThrowHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f4708639776589f5ac2739f6fcbfc67343b1f9dac51cc1dbfdb003eef77cc1c/Monitor.CoreCLR.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/f9daeeaab8409865442b5e80e634dc64dae9a14892fe81e0f17b46f51b2c48f8/DbSet.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Data/Entities/CompletedTaskDal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Controllers/AdminController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Controllers/RatingController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Controllers/TaskController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Controllers/TaskController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Controllers/TokenController.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Controllers/TokenController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Data/DataContext.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolServer/Data/Entities/CompletedTaskDal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Data/Entities/DifficultiyDal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Data/Entities/TaskDal.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Data/Entities/UserDal.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock://C:/Users/mukan/RiderProjects/SchoolServer/SchoolServer/Migrations/DataContextModelSnapshot.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/SchoolServer/Models/UserModel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/SchoolServer/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -46,23 +59,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "XThreadsFramesViewSplitterKey": "0.6666667",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;XThreadsFramesViewSplitterKey&quot;: &quot;0.6666667&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\mukan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
-      "C:\\Users\\mukan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
-      "C:\\Users\\mukan\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\mukan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\mukan\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\mukan\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected=".NET Launch Settings Profile.SchoolServer">
     <configuration name="SchoolServer" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/SchoolServer/SchoolServer.csproj" />
@@ -105,7 +118,12 @@
       <updated>1671630365032</updated>
       <workItem from="1671630366640" duration="3906000" />
       <workItem from="1671688179393" duration="33090000" />
-      <workItem from="1671763331994" duration="30506000" />
+      <workItem from="1671763331994" duration="34275000" />
+      <workItem from="1671900968851" duration="2522000" />
+      <workItem from="1673369836572" duration="11257000" />
+      <workItem from="1673417515282" duration="36464000" />
+      <workItem from="1673514912581" duration="7933000" />
+      <workItem from="1673712446204" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="Мелкие правки">
       <created>1671630561200</created>
@@ -142,7 +160,56 @@
       <option name="project" value="LOCAL" />
       <updated>1671805873810</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="мелкие правки">
+      <created>1671806703938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671806703938</updated>
+    </task>
+    <task id="LOCAL-00007" summary="предрелизная версия">
+      <created>1673471627721</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673471627721</updated>
+    </task>
+    <task id="LOCAL-00008" summary="миграции">
+      <created>1673471942592</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673471942592</updated>
+    </task>
+    <task id="LOCAL-00009" summary="прототип админки">
+      <created>1673471966639</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1673471966639</updated>
+    </task>
+    <task id="LOCAL-00010" summary="мелкие правки">
+      <created>1673471994912</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1673471994912</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Подключение другой бд">
+      <created>1673712757638</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1673712757638</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Релиз">
+      <created>1673712790000</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1673712790000</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +222,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -167,36 +246,29 @@
     <MESSAGE value="Мелкие правки" />
     <MESSAGE value="Добавил новый файл" />
     <MESSAGE value="релиз промежуточной версии" />
-    <option name="LAST_COMMIT_MESSAGE" value="релиз промежуточной версии" />
+    <MESSAGE value="предрелизная версия" />
+    <MESSAGE value="миграции" />
+    <MESSAGE value="прототип админки" />
+    <MESSAGE value="мелкие правки" />
+    <MESSAGE value="Подключение другой бд" />
+    <MESSAGE value="Релиз" />
+    <option name="LAST_COMMIT_MESSAGE" value="Релиз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolServer/Controllers/TaskController.cs</url>
-          <line>38</line>
-          <properties documentPath="C:\Users\mukan\RiderProjects\SchoolServer\SchoolServer\Controllers\TaskController.cs" initialLine="38" containingFunctionPresentation="method 'Get'">
+          <url>file://$PROJECT_DIR$/SchoolServer/Controllers/RatingController.cs</url>
+          <line>23</line>
+          <properties documentPath="C:\Users\mukan\RiderProjects\SchoolServer\SchoolServer\Controllers\RatingController.cs" initialLine="23" containingFunctionPresentation="method 'GetUserRating'">
             <startOffsets>
-              <option value="1189" />
+              <option value="562" />
             </startOffsets>
             <endOffsets>
-              <option value="1205" />
+              <option value="563" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/SchoolServer/Controllers/TaskController.cs</url>
-          <line>39</line>
-          <properties documentPath="C:\Users\mukan\RiderProjects\SchoolServer\SchoolServer\Controllers\TaskController.cs" initialLine="39" containingFunctionPresentation="method 'Get'">
-            <startOffsets>
-              <option value="1214" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1242" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="37" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
