@@ -1,7 +1,35 @@
+.result-title-box {
+    background: #D3AAF8;
+    padding: 14px 50px;
+    margin-top: 100px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.personalResult {
+    margin: auto 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    height: 81px;
+    color: #000000;
+    padding: 25px;
+    width: 231px;
+    background: #B5FBD6;
+    border-radius: 35px;
+}
+
+.result-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 50px;
+    background: #E6E6E6;
+    height: 170px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 .result_list {
     width: 1300px;
     height: 691px;
-    background-color: #E6E6E6;
     border-radius: 25px;
     margin-bottom: 100px;
 }
@@ -10,9 +38,7 @@
     font-weight: 700;
     font-size: 52px;
     line-height: 63px;
-    padding: 50px 0;
-    color: #5E0155;
-
+    color: #000000;
 }
 
 .result_list ul {
@@ -35,9 +61,16 @@
 /*}*/
 
 .result_box {
-    padding: 80px 200px ;
+    width: 1224px;
+    padding: 80px 180px ;
+    background: #FFFFFF;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .number {
     margin-right: 30px;
+}
+
+.results_btn_box {
+    margin-bottom: 25px;
 }
